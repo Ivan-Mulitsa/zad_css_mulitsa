@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>zadanie2 - Mulitsa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<table width=95% border="1" align="center">
+<tr>
+<td align=center colspan="2">Cechy modyfikowania formatowania w:</td>
+</tr>
+<tr>
+
+<td align=center> w html </td>
+<td align=center> w html </td>
+
+</tr>
+<tr>
+
+<td >modyfikacja wyglądu elementów strony jest<br>
+bardzo <b>żmudna</b> (atrybuty i znaczniki które<br>
+za to odpowiadają, są porozrzucane w<br>
+różnych miejscach kodu, mieszając się ze<br>
+strukturą dokumentu).<br><br><br><br></td>
+
+<td>rozdzielenie <b>struktury i prezentacji</b><br>
+dokumentów czyli: wszystkie polecenia<br>
+dotyczące formatowania można umieścić w<br>
+jednym miejscu (tzw. arkuszu) i powiązać je<br>
+z konkretnymi elementami, wstawionymi za<br>
+pomocą czystego (X)HTML. Taki sposób<br>
+sprawia, że modyfikacja wyglądu stron może<br>
+przebiegać dużo sprawniej.<br></td>
+
+</tr>
+
+</table>
+
+<p><b>Nowe możliwości CSS</b><p>
+1)<b>Przestarzałe atrybuty i znaczniki</b>, znajdujące się bezpośrednio w składni HTML, które<br>
+dotyczą formatowania (elementy <b>zdeprecjonowane</b>), będą stopniowo wycofywane przez<br>
+producentów przeglądarek internetowych, na rzecz rekomendowanych analogicznych<br>
+deklaracji CSS.<br>
+2)Dokumenty pisane z wykorzystaniem arkuszy stylów są zwykle bardziej <b>przejrzyste i</b><br>
+<b>krótsze.</b><br>
+3)Style pozwalają w łatwy sposób zarządzać całą serią dokumentów, poprzez stosowanie<br>
+zewnętrznych arkuszy stylów.<br>
+4) Dzięki możliwości stosowania klas selektorów, znacznie oszczędzamy sobie pisania. W<br>
+<b>jednym miejscu określamy wszystkie atrybuty formatowania </b>(których może być bardzo<br>
+dużo), odnoszące się do wielu elementów, które mają wyglądać tak samo. Bezpośrednio przy<br>
+elemencie wystarczy podać tylko nazwę klasy i nie musimy już wypisywać dużej ilości<br>
+poleceń. Znacznie przyspiesza to późniejszą modyfikację strony, ponieważ zmian<br>
+dokonujemy tylko w jednym miejscu, a wpływają one na wiele elementów jednocześnie.<br>
+5)Możliwość <b>stosowania różnorodnych jednostek oraz sposobów definiowania kolorów.</b><br>
+6)Różne wartości <b>pogrubienia czcionki</b> (9 rodzajów)<br>
+7)<b>Dodatkowe możliwości formatowania tekstu</b><br>
+8)<b>Efektowne filtry graficzne.</b><br>
+9)Dodatkowe możliwości <b>określenia wyglądu dokumentów podczas ich drukowania.</b><br>
+
+
+<h1>Wady CSS</h1>
+1. złożona specyfikacja (składnia) nietolerująca, rzadnych błędów składniowych,<br>
+2. brak sygnalizacji błędów podczas wykonywania styli CSS oraz podczas ich realizacji,<br>
+3. błędne obsługiwanie CSS przez różne przeglądarki,<br>
+
+
+<h1>Uwagi na temat pisania KODU w CSS</h1><br>
+<u>Uwaga1:</u><br>
+Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.<br>
+Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground.<br>
+<u>Uwaga2:</u><br>
+Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma<br>
+wpływu na jego działanie.<br>
+<u>Uwaga3:</u><br>
+
+Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne np.<br>
+
+<table width=95% border="1" align="center">
+<tr>
+<td  >h1 {<br>
+font-weight : bold;<br>
+}<br></td>
+<td align=center >możemy zapisać</td>
+<td align=center >h1{font-weight:bold;}</td>
+
+</tr>
+</td>
+</table>
+
+
+
+
+
+<u>Uwaga4:</u><br>
+<b>Komentarze w arkuszu stylów</b><br>
+pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza),<br>
+np.: /*to jest komentarz*/.<br>
+Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę.<br>
+<u>Uwaga5:</u><br>
+Część poleceń stylów CSS nie sa interpretowane przez niektóre przeglądarki internetowe lub<br>
+jest obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to<br>
+możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet<br>
+Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera.<br>
+
+
+
+
+
+
+
+</body>
+</html>

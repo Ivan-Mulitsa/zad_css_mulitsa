@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>zadanie4 - Mulitsa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h3>Sposoby podłączania styli do strony (skrócone zestawienie)</h3>
+<p><b>1)<u>Zewnętrzny</u> arkusz stylów.<b></p>
+
+<table width=95% border="1" align="center">
+<td>
+
+	head <br>
+	link rel="Stylesheet" type="text/css" href="style.css" / <br>
+	/head <br>
+
+</td>
+</table>
+
+<p><b>2)Styl <u>lokalny</u> inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+dopisanie arkusza do wybranego bloku treści strony.<p><b>
+<table width=95% border="1" align="center">
+<td>
+selektor style="cecha1: wartość1; cecha2: wartość2...".../selektor <br>
+</td>
+</table>
+
+<p><b>3)<u>Wewnętrzny</u> arkusz stylów.<p><b>
+
+<table width=95% border="1" align="center">
+<td>
+head<br>
+	<b>style type="text/css"</b><br>
+		selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+		selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+	<b>/style</b><br>
+/head<br>
+</td>
+</table>
+
+<p><b>4)<u>Alternatywny</u>  arkusz stylów.<p><b>
+
+<table width=95% border="1" align="center">
+<td>
+
+	head<br>
+		link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" /<br>
+		link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /<br>
+		link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /<br>
+	/head<br>
+
+</td>
+</table>
+
+<p><b>5)<u>Import</u> arkusza stylów<p><b>
+<table width=95% border="1" align="center">
+<td>
+
+style type="text/css"<br>
+@import url(adres zewnętrznego arkusza stylów);<br>
+/style<br>
+</td>
+</table>
+
+</body>
+</html>

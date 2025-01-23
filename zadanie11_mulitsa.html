@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+
+Temat: Wymień rodzaje selektorów.
+Użyj zagnieżdżonych wyliczeń (trzy poziomy).<br>
+<b><u>Rodzaj pierwszy</u></b><br>
+<b>Selektory proste nazywany inaczej <u>selektor typu</u></b><br>
+<textarea cols="20" rows="7">
+p
+ {
+ color:red;
+ font-size:14pt;
+ }
+
+</textarea> </TD>
+<p>Selektorem prostym jest znaczniki języka XHTML/HTML (np. p, h3, table, img) przypisany
+do elementu, który chcesz w danym momencie formatować.
+Styl zdefiniowany dla przykładowego selektora p będzie odnosił się wyłącznie do
+akapitów zamkniętych w znacznikach i nie będzie wpływał na pozostałe elementy
+strony WWW.<br>
+
+<b><u>Rodzaj drugi</b></u><br>
+<b>Selektor uniwersalny</b><br>
+<textarea cols="20" rows="2">
+* { cecha: wartość }
+</textarea> </TD><br>
+<p><b>Cecha</b> (ang. property) oraz <b>wartość</b> (ang. value) określają atrybuty elementu.<br>
+
+<p>Selektor taki pozwala ustalić określone atrybuty dla wszystkich elementów strony, a więc dla
+różnych selektorów typu. Możemy za pomocą tej komendy nadać to samo formatowanie dla
+wszystkich elementów na całej stronie, niezależnie od ich typu (p, h1, li itd.).<br>
+<br>Uwaga1
+<p>Niestety jego działanie nie zawsze jest jednoznaczne, dlatego dużo bezpieczniej jest używać
+selektora typu dla elementu body, chyba że zastosujemy to polecenie w odniesieniu do klasy
+selektorów.<br>
+<br>Uwaga2
+<p>Jeśli selektor uniwersalny chcemy zastosować do selektora innego niż selektor typu (w
+połączeniu z selektorami: atrybutów, specjalnymi, pseudoelementów lub pseudoklas), to
+gwiazdkę można pominąć.
+
+
+</body>
+</html>
